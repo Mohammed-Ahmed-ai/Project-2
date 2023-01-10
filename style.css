@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(
+        135deg,
+        #2052ef,
+        #d2670f
+    );
+}
+.contnt{
+     width: 40%;
+    min-width: 450px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    padding: 30px 40px;
+}
+
+#Name{
+    position: relative;
+    background-color: #fff;
+    padding: 30px 20px;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0,0.5);
+}
+
+#Name>input {
+    width: 50%;
+    height: 45px;
+    font-family:sans-serif;
+    font-size: 15px;
+    border: 2px solid #d1d3d4;
+    padding: 12px;
+    color: #000;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+}
+#Name>input:focus{
+    outline: none;
+    border-color: #8052ec;
+}
+#Name button{
+    position: relative;
+    float: right;
+    width: 40%;
+    height: 45px;
+    border-radius: 5px;
+    font-family:sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #8052ec;
+    border: none;
+    color: #FFF;
+    cursor: pointer;
+}
+ 
+
+.names{
+    background-color: #fff;
+    padding: 70px 50px;
+    margin-top: 60px;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0,0.3);
+    width: 100%;
+    position: relative;
+}
+
+.name{
+     height: 50px;
+    padding: 5px 10px;
+    margin-top: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid #d1d3d4;
+    cursor: pointer;
+    position: relative;
+}
+
+.name span{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.name button{
+    background-color: red;
+    color: #fff;
+    height: 100%;
+    width: 60px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    color: #FFF;
+}
+
+.ClearAll{
+    position: absolute;
+    bottom: 20px;
+    left: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: sans-serif;
+ }
+
+ .ClearAll>button{
+    background-color: red;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+ }
+
